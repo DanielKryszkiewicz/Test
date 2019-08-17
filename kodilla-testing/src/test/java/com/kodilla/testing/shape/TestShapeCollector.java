@@ -3,7 +3,7 @@ package com.kodilla.testing.shape;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class testShapeCollector {
+public class TestShapeCollector {
     @Test
     public void testAddFigure() {
 

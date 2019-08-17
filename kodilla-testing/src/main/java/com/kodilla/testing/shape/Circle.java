@@ -1,6 +1,7 @@
 package com.kodilla.testing.shape;
 
 public class Circle implements Shape {
+
    private final static String name = "Circle";
     Double radius;
 

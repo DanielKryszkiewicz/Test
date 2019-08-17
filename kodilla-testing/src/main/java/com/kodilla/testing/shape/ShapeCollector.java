@@ -4,6 +4,8 @@ import java.util.List;
 
 public class ShapeCollector {
 
+    private List<Shape> shapes = new ArrayList<>();
+
     public void addFigure(Shape shape){
         shapes.add(shape);
 
@@ -20,6 +22,5 @@ public class ShapeCollector {
         return shapes.size();
 
     }
-    private List<Shape> shapes = new ArrayList<>();
 
 }
