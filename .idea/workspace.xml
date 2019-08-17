@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea1a14e2-49c5-4555-a852-5203cc237a11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/collection/OddNumbersExterminator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/ForumTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/user/SimpleUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/test/collection/CollectionTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/ForumComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/ForumPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/ForumUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/shape/ShapeCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/shape/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/shape/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/tdd/ForumTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/shape/testShapeCollector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/ForumTestSuite.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +49,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,6 +63,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -79,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionTestSuite (1)">
+  <component name="RunManager" selected="JUnit.testShapeCollector">
     <configuration name="CollectionTestSuite (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-testing.kodilla-course.test" />
       <extension name="coverage">
@@ -95,64 +105,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForumTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-testing.kodilla-course.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.test.collection.*" />
+          <option name="PATTERN" value="com.kodilla.testing.forum.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="collection" />
-      <option name="MAIN_CLASS_NAME" value="collection.CollectionTestSuite" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.forum.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.forum.tdd.ForumTestSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTestSuite.testOddNumbersExterminatorEmpty (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForumTestSuite.testAddPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-testing.kodilla-course.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.test.collection.*" />
+          <option name="PATTERN" value="com.kodilla.testing.forum.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.test.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.test.collection.CollectionTestSuite" />
-      <option name="METHOD_NAME" value="testOddNumbersExterminatorEmpty" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.forum.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.forum.tdd.ForumTestSuite" />
+      <option name="METHOD_NAME" value="testAddPost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTestSuite.testOddNumbersExterminatorEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testShapeCollector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-testing.kodilla-course.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.test.collection.*" />
+          <option name="PATTERN" value="com.kodilla.testing.shape.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="collection" />
-      <option name="MAIN_CLASS_NAME" value="collection.CollectionTestSuite" />
-      <option name="METHOD_NAME" value="testOddNumbersExterminatorEmpty" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.shape" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.shape.testShapeCollector" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTestSuite.testOddNumbersExterminatorNormalList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testShapeCollector.testAddFigure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-testing.kodilla-course.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.test.collection.*" />
+          <option name="PATTERN" value="com.kodilla.testing.shape.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.test.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.test.collection.CollectionTestSuite" />
-      <option name="METHOD_NAME" value="testOddNumbersExterminatorNormalList" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.shape" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.shape.testShapeCollector" />
+      <option name="METHOD_NAME" value="testAddFigure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testShapeCollector" />
+        <item itemvalue="JUnit.testShapeCollector.testAddFigure" />
+        <item itemvalue="JUnit.ForumTestSuite" />
+        <item itemvalue="JUnit.ForumTestSuite.testAddPost" />
         <item itemvalue="JUnit.CollectionTestSuite (1)" />
-        <item itemvalue="JUnit.CollectionTestSuite.testOddNumbersExterminatorNormalList" />
-        <item itemvalue="JUnit.CollectionTestSuite.testOddNumbersExterminatorEmpty (1)" />
-        <item itemvalue="JUnit.CollectionTestSuite.testOddNumbersExterminatorEmpty" />
-        <item itemvalue="JUnit.CollectionTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +196,8 @@
       <updated>1565116118223</updated>
       <workItem from="1565116119567" duration="5312000" />
       <workItem from="1565801866399" duration="1583000" />
-      <workItem from="1565869518656" duration="5749000" />
+      <workItem from="1565869518656" duration="13061000" />
+      <workItem from="1566032134742" duration="8043000" />
     </task>
     <servers />
   </component>
