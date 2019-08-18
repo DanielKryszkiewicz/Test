@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-course.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-course.kodilla-stream.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-course.kodilla-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-course.kodilla-stream.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-course.kodilla-stream.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-course.kodilla-stream.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-course.kodilla-stream.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-course.kodilla-testing.kodilla-course.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-course.kodilla-testing.kodilla-course.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-course.kodilla-testing.kodilla-course.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-course.kodilla-testing.kodilla-course.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-course.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-course.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-course.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-course.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-stream.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-testing.kodilla-course.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-testing.kodilla-course.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-testing.kodilla-course.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-testing.kodilla-course.test.iml" />
     </modules>

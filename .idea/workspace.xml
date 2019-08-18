@@ -2,19 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea1a14e2-49c5-4555-a852-5203cc237a11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/weather/stub/Temperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/weather/stub/WeatherForecast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/TemperatresStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/WeatherForecastTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemBeautifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/ExecuteSaySomething.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/ExpressionExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/MathExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/SaySomething.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/ForumStat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/StatisticsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/mock/WeatherForecastTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-course.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/shape/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/shape/ShapeCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/shape/ShapeCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-testing/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-testing/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-testing/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/WeatherForecastTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/WeatherForecastTestSuite.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -63,6 +82,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -84,33 +104,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WeatherForecastTestSuite.testCalculateForecastWithStub">
-    <configuration name="ForumTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-testing.kodilla-course.test" />
+  <component name="RunManager" selected="Application.StreamMain">
+    <configuration name="StreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.StreamMain" />
+      <module name="kodilla-course.kodilla-stream.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.testing.forum.tdd.*" />
+          <option name="PATTERN" value="com.kodilla.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.testing.forum.tdd" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.forum.tdd.ForumTestSuite" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticsTest.testWithNoPosts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-testing" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.forum.statistics.StatisticsTest.testWithNoPosts&quot; " />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestShapeCollector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-testing.kodilla-course.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing.shape.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.shape" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.shape.TestShapeCollector" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumTestSuite.testAddPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherForecastTestSuite.testCalculateForecastWithMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-testing.kodilla-course.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.testing.forum.tdd.*" />
+          <option name="PATTERN" value="com.kodilla.testing.weather.mock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.testing.forum.tdd" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.forum.tdd.ForumTestSuite" />
-      <option name="METHOD_NAME" value="testAddPost" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.weather.mock" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.weather.mock.WeatherForecastTestSuite" />
+      <option name="METHOD_NAME" value="testCalculateForecastWithMock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,37 +185,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testShapeCollector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-testing.kodilla-course.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.testing.shape.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.testing.shape" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.shape.testShapeCollector" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testShapeCollector.testAddFigure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-testing.kodilla-course.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.testing.shape.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.testing.shape" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.shape.testShapeCollector" />
-      <option name="METHOD_NAME" value="testAddFigure" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KodillaCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="kodilla-course.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.KodillaCourseApplication" />
@@ -170,13 +192,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.StreamMain" />
+      <item itemvalue="Gradle.StatisticsTest.testWithNoPosts" />
+      <item itemvalue="JUnit.TestShapeCollector" />
+      <item itemvalue="JUnit.WeatherForecastTestSuite.testCalculateForecastWithMock" />
+      <item itemvalue="JUnit.WeatherForecastTestSuite.testCalculateForecastWithStub" />
+      <item itemvalue="Spring Boot.KodillaCourseApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamMain" />
+        <item itemvalue="Gradle.StatisticsTest.testWithNoPosts" />
+        <item itemvalue="JUnit.WeatherForecastTestSuite.testCalculateForecastWithMock" />
         <item itemvalue="JUnit.WeatherForecastTestSuite.testCalculateForecastWithStub" />
-        <item itemvalue="JUnit.testShapeCollector" />
-        <item itemvalue="JUnit.testShapeCollector.testAddFigure" />
-        <item itemvalue="JUnit.ForumTestSuite" />
-        <item itemvalue="JUnit.ForumTestSuite.testAddPost" />
+        <item itemvalue="JUnit.TestShapeCollector" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +223,11 @@
       <workItem from="1565116119567" duration="5312000" />
       <workItem from="1565801866399" duration="1583000" />
       <workItem from="1565869518656" duration="13061000" />
-      <workItem from="1566032134742" duration="14026000" />
+      <workItem from="1566032134742" duration="19495000" />
+      <workItem from="1566121300840" duration="7518000" />
+      <workItem from="1566129998338" duration="521000" />
+      <workItem from="1566133830231" duration="3981000" />
+      <workItem from="1566156923951" duration="1646000" />
     </task>
     <servers />
   </component>
@@ -227,7 +261,23 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/StatisticsTest.java</url>
+          <line>31</line>
+          <properties class="com.kodilla.testing.forum.statistics.StatisticsTest" method="testWithNoPosts">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/StatisticsTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kodilla_course$StatisticsTest_testWithNoPosts.ic" NAME="StatisticsTest.testWithNoPosts Coverage Results" MODIFIED="1566130067680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
