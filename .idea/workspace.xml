@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea1a14e2-49c5-4555-a852-5203cc237a11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemBeautifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/beautifier/PoemDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/ExecuteSaySomething.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/Executor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/ExpressionExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/MathExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/lambda/SaySomething.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/ForumStat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/StatisticsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/mock/WeatherForecastTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-testing/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-testing/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-testing/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/WeatherForecastTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/WeatherForecastTestSuite.java" afterDir="false" />
-    </list>
+    <list default="true" id="ea1a14e2-49c5-4555-a852-5203cc237a11" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +203,7 @@
       <workItem from="1566121300840" duration="7518000" />
       <workItem from="1566129998338" duration="521000" />
       <workItem from="1566133830231" duration="3981000" />
-      <workItem from="1566156923951" duration="1646000" />
+      <workItem from="1566156923951" duration="1901000" />
     </task>
     <servers />
   </component>
