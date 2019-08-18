@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea1a14e2-49c5-4555-a852-5203cc237a11" name="Default Changelist" comment="" />
+    <list default="true" id="ea1a14e2-49c5-4555-a852-5203cc237a11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/kodilla-stream/src/main/java/com/kodilla/stream/immutable/ForumUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Martusia\IdeaProjects\kodilla-course\kodilla-testing" />
       <recent name="C:\Users\Martusia\IdeaProjects\kodilla-course\" />
       <recent name="C:\Users\Martusia\IdeaProjects\kodilla-course\kodilla-testing\kodilla-stream" />
     </key>
@@ -210,6 +214,8 @@
       <workItem from="1566129998338" duration="521000" />
       <workItem from="1566133830231" duration="3981000" />
       <workItem from="1566156923951" duration="2174000" />
+      <workItem from="1566161449834" duration="274000" />
+      <workItem from="1566162129152" duration="247000" />
     </task>
     <servers />
   </component>
