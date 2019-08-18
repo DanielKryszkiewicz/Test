@@ -68,6 +68,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Martusia\IdeaProjects\kodilla-course\" />
+      <recent name="C:\Users\Martusia\IdeaProjects\kodilla-course\kodilla-testing\kodilla-stream" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -203,7 +209,7 @@
       <workItem from="1566121300840" duration="7518000" />
       <workItem from="1566129998338" duration="521000" />
       <workItem from="1566133830231" duration="3981000" />
-      <workItem from="1566156923951" duration="1901000" />
+      <workItem from="1566156923951" duration="2174000" />
     </task>
     <servers />
   </component>
